@@ -1,0 +1,210 @@
+@import url(..//css/responsive.css);
+
+@font-face {
+    font-family: Manrope-Light_0;
+    src: url(../font/Manrope-Light_0.otf);
+}
+
+@font-face {
+    font-family: Manrope-Medium_0;
+    src: url(../font/Manrope-Medium_0.otf);
+}
+
+@font-face {
+    font-family: Manrope-ExtraBold_0;
+    src: url(../font/Manrope-ExtraBold_0.otf);
+}
+
+@font-face {
+    font-family: Manrope-Bold_0;
+    src: url(../font/Manrope-Bold_0.otf);
+}
+
+@font-face {
+    font-family: Manrope-SemiBold_0;
+    src: url(../font/Manrope-SemiBold_0.otf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sora-Regular;
+    src: url(../font/Sora-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sora-Medium;
+    src: url(../font/Sora-Medium.ttf);
+}
+
+@font-face {
+    font-family: Sora-SemiBold;
+    src: url(../font/Sora-SemiBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: '';
+    width: 120%;
+    height: 621px;
+    border-radius: 0 0 50% 50%;
+    background-color: #F9F8F6;
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    right: -10%;
+}
+
+header::after {
+    content: '';
+    width: 120%;
+    height: 621px;
+    border-radius: 0 0 50% 50%;
+    background: url(../img/back-line.svg);
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    right: -10%;
+}
+
+.logo {
+
+    margin-top: 28px;
+}
+
+.box-1 {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    width: 107px;
+    height: 40px;
+    margin-top: 28px;
+    background-color: #27D110;
+    color: #000000;
+    border-radius: 40px;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 0px 0px #000000;
+    font-family: Inter-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.hero-left {
+    width: 50%;
+    position: relative;
+    padding-bottom: 247px;
+
+}
+
+.hero-right {
+    position:relative;
+    right: 3%;
+
+}
+
+h1 {
+    font-family: Manrope-ExtraBold_0;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 80px;
+}
+
+.hero-peras {
+    width: 521px;
+    font-family: Inter-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 24px;
+}
+
+#btn-2 {
+    width: 278px;
+    height: 53px;
+    font-family: Inter-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    border-radius: 40px;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 0px 0px #000000;
+    background-color: #27D110;
+    padding-left: 52px;
+    margin-top: 40px;
+    position: relative;
+}
+
+#btn-2::after {
+    content: '';
+    width: 22.46px;
+    height: 21.58px;
+    background: url(../img/stars.svg);
+    position: absolute;
+    left: 7%;
+    bottom: 16px;
+}
+
+.box-2 {
+    display: flex;
+}
+
+
+
+/* section */
+
+
+.row{
+    display: flex;
+}
+.map-text{
+    margin-top: 70px;
+    width: 45%;
+}
+.map-img{
+    width: 55%;
+}
+
+
+
+.map-text p{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
